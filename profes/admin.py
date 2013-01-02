@@ -53,6 +53,10 @@ class TareaInline(admin.TabularInline):
     model = Tarea
     extra = 1
 
+class EdicionInline(admin.TabularInline):
+    model = Edicion
+    extra = 0
+
 class PosibilidadInline(admin.TabularInline):
     model = Posibilidad
     raw_id_fields = ('curso',)
@@ -68,14 +72,14 @@ class PosibilidadAdmin(admin.ModelAdmin):
     list_filter = [RangoAlumnosListFilter,]
 
 class CursoAdmin(admin.ModelAdmin):
-    search_fields = ('titulo','tipo',)
-    inlines = [PosibilidadInline,]
+    search_fields = ('numero','titulo','tipo',)
+    inlines = [PosibilidadInline,EdicionInline,]
 
 class CategoriaAdmin(admin.ModelAdmin):
     pass
 
 class EdicionAdmin(admin.ModelAdmin):
-    list_display = ['codigo','__unicode__','alumnos_minimos']
+    list_display = ['codigo','__unicode__','alumnos_minimos','calificacion']
 
 
 

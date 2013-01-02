@@ -75,6 +75,7 @@ class Edicion(models.Model):
     numero =  models.CharField(max_length=20)
     fecha_inicio = models.DateField()
     fecha_fin = models.DateField()
+    calificacion = models.IntegerField(default=0)
     profesor = models.ForeignKey(Profesor,related_name='ediciones')
     curso = models.ForeignKey(Curso,related_name='ediciones')
 
