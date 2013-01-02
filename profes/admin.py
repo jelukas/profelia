@@ -73,7 +73,13 @@ class PosibilidadAdmin(admin.ModelAdmin):
 
 class CursoAdmin(admin.ModelAdmin):
     search_fields = ('numero','titulo','tipo',)
+    list_display = ['numero','titulo','categoria',]
     inlines = [PosibilidadInline,EdicionInline,]
+    list_filter = ['categoria',]
+
+
+    def categoria(self,obj):
+        return obj.categoria.nombre
 
 class CategoriaAdmin(admin.ModelAdmin):
     pass

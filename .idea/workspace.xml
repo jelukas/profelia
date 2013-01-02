@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e43a0d-a492-42e4-9be5-b3d2cfe67f51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/profelia.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profelia.db" afterPath="$PROJECT_DIR$/profelia.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profes/admin.py" afterPath="$PROJECT_DIR$/profes/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profes/models.py" afterPath="$PROJECT_DIR$/profes/models.py" />
     </list>
     <ignored path="profelia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +26,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profes/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="32" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0">
+            <state line="61" column="0" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,7 +35,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profes/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="25" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.8313679">
+            <state line="77" column="29" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.8313679">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -206,8 +196,8 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986595" sideWeight="0.49657536" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986595" sideWeight="0.49543378" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -277,14 +267,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/profes/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="32" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profes/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="25" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.8313679">
+        <state line="77" column="29" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.8313679">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
