@@ -1,2 +1,2 @@
-profelia
+Profelia - Gestión de Profesores
 ========
